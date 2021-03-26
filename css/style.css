@@ -140,7 +140,7 @@ a:active {
   width: 24px;
   height: 24px;
   display: block;
-  margin: 12px 0px;
+  margin: 14px 8px 12px 0px;
   color: #3F3F3F;
 }
 
@@ -245,13 +245,21 @@ a:active {
 }
 
 .copyright {
-  padding-bottom: 48px;
+  padding-bottom: 16px;
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -259,8 +267,13 @@ a:active {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -268,8 +281,13 @@ a:active {
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
@@ -278,6 +296,10 @@ a:active {
 
 .work-top-row {
   margin-top: -24px;
+}
+
+.social-bottom {
+  display: flex;
 }
 
 /* ==============================
